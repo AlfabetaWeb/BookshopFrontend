@@ -8,6 +8,8 @@ const Header = props => {
         <header className="Header">
            <NavLink activeClassName="is-active" to="/">home</NavLink>
            <NavLink to="bookClub">Listado de Clubs</NavLink>
+
+           <p>Bookshop</p>
         </header>
     )
 }
